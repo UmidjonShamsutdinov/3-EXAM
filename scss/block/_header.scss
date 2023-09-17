@@ -1,0 +1,138 @@
+header{
+    position: relative;
+}
+
+.nav__wrapper{
+    padding: 30px 0 0 0;
+    background-color: #0101015c;
+    color: #fff;
+    display: flex;
+    align-items: center;  
+    gap: 30px;
+    width: 100%;
+    img{
+        margin-left: 60px;
+    }
+    ul{
+        display: flex;
+        gap: 20px;
+        flex-grow: 1;
+        li{
+            color: #FFF;
+            text-align: center;
+            font-family: "Khula", sans-serif;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 400;
+        }
+    }
+    position: absolute;
+    z-index: 20;
+    input{
+        margin-right: 60px;
+    }
+}
+
+body{
+    background-color: #000;
+    overflow-y: auto;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+
+
+  .swiper1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide1 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide1 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+.hero{
+    position: relative;
+    height: 100vh;
+    .hero__content{
+        position: absolute;
+        top: 30%;
+        z-index: 20;
+        left: 5%;
+        h2{
+            color: #FFF;
+            text-align: center;
+            font-family: "Inspiration", sans-serif; 
+            font-size: 150px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 77px;
+        }
+        .hero__content-btns{
+            margin-top: 60px;
+            justify-content: start;
+            display: flex;
+            gap: 0 20px;
+            button:first-of-type{
+                color: #000;
+                text-align: center;
+                font-family: "IBM Plex Sans Thai", sans-serif;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 700;
+                padding: 5px 10px;
+                border: none;
+                border-radius: 5px;
+            }
+            button:last-of-type{
+                border: none;
+                border-radius: 5px;
+                color: #F9F9F9;
+                text-align: center;
+                font-family: "IBM Plex Sans Thai", sans-serif;
+                font-size: 27px;
+                font-style: normal;
+                font-weight: 700;
+                padding: 5px 10px;
+                background-color: rgb(188, 184, 184);
+            }
+        }
+    }
+}
+
+
